@@ -1,3 +1,16 @@
 <resources>
-	<string name="app_name">My Movies</string>
+    <string name="app_name">My Movies</string>
+    <string name="movie_list">Popular movies</string>
+    <string name="retry">Retry</string>
+    <string name="title">Title: %1$s</string>
+    <string name="rate">Rate: %1$s</string>
+    <string name="year">Year: %1$s</string>
+    <string name="title_activity_movie_detail">ScrollingActivity</string>
+    <string name="overview">Overview: %1$s</string>
+    <string name="languages">Spoken languages: %1$s</string>
+    <string name="production_countries">Production countries: %1$s</string>
+    <string name="production_companies">Production companies: %1$s</string>
+    <string name="budget">Budget: $ %1$s </string>
+    <string name="error_for_request">Failed to get data, please check connection and try again</string>
+    <string name="connection_issue">Please check connection and try again</string>
 </resources>
