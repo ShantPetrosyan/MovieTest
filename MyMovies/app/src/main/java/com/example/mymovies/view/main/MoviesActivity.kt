@@ -29,7 +29,7 @@ class MoviesActivity : DaggerAppCompatActivity() {
             TAG_MOVIE_LIST
         )
 
-        if (Navigator.verifyAvailableNetwork(this)) {
+        if (!Navigator.verifyAvailableNetwork(this)) {
             Toast.makeText(this, getString(R.string.connection_issue), Toast.LENGTH_LONG).show()
         }
     }

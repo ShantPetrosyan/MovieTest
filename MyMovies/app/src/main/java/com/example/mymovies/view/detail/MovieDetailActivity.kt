@@ -41,7 +41,7 @@ class MovieDetailActivity : BaseActivity() {
         setupData()
         viewModel.getMovieDetail(movieId)
 
-        if (Navigator.verifyAvailableNetwork(this)) {
+        if (!Navigator.verifyAvailableNetwork(this)) {
             Toast.makeText(this, getString(R.string.connection_issue), Toast.LENGTH_LONG).show()
         }
     }
